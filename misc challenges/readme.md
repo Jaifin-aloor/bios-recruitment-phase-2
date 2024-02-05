@@ -5,3 +5,26 @@
 
 ## CHALLENGE 4
 ### 
+'''
+import base64
+
+pathin='misc4.txt'
+pathout='misc444.txt'
+
+with open(pathin , 'r') as nig:
+    foo = nig.read()
+
+    
+
+
+for i in range(35):
+    bar=base64.b64decode(foo.encode('utf-8'))
+    bas=bar.decode('utf-8')
+    foo=bas
+    with open(pathout ,'a') as ger:
+        ger.write(bas)
+        ger.write('\n')
+
+        
+'''
+
