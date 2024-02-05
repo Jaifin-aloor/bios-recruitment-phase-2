@@ -13,4 +13,4 @@
 
 ## CHALLENGE 4
 ### In this challenge i had to figure out the password in order to get the flag. so i decompiled it with binary ninja cloud and in the decompiled code it said if the parameter given is 10 characters long and if the 5th character is '@' then you get the flag. so i gave a password and got he flag.
-![]()
+![](https://github.com/Jaifin-aloor/bios-recruitment-phase-2/blob/main/reversing%20challenges/resources/rev4flag.png)
