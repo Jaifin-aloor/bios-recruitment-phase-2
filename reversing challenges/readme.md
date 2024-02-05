@@ -1,4 +1,5 @@
 ## CHALLENGE 1 
+### In this challenge i had to find out the hidden flag from the binary. So first i disassembled the executable with IDA and figured out there was a key but when i disassembled using binary ninja cloud i figured out that the key had to be reverse xored so i did that and got the flag.
 
 
 ## CHALLENGE 2
@@ -7,10 +8,10 @@
 
 
 ## CHALLENGE 3
-### In this challenge i had to find the password so i first dissasembled the file using IDA and then i used binary ninja cloud and in i read the file in HLIL format and it showed that if the password given is the decimal of a hexadecimal number then i would recive the flag. so i gave the decimal number as a parameter and i got the flag.
+### In this challenge i had to find the password so i first disassembled the file using IDA and then i used binary ninja cloud and in i read the file in HLIL format and it showed that if the password given is the decimal of a hexadecimal number then i would recive the flag. so i gave the decimal number as a parameter and i got the flag.
 ![](https://github.com/Jaifin-aloor/bios-recruitment-phase-2/blob/main/reversing%20challenges/resources/rev3flag2.png)
 ![](https://github.com/Jaifin-aloor/bios-recruitment-phase-2/blob/main/reversing%20challenges/resources/rev3flag.png)
 
 ## CHALLENGE 4
-### In this challenge i had to figure out the password in order to get the flag. so i decompiled it with binary ninja cloud and in the decompiled code it said if the parameter given is 10 characters long and if the 5th character is '@' then you get the flag. so i gave a password and got he flag.
+### In this challenge i had to figure out the password in order to get the flag. so i disassembled it with binary ninja cloud and in the decompiled code it said if the parameter given is 10 characters long and if the 5th character is '@' then you get the flag. so i gave a password and got he flag.
 ![](https://github.com/Jaifin-aloor/bios-recruitment-phase-2/blob/main/reversing%20challenges/resources/rev4flag.png)
